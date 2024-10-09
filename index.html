@@ -1,0 +1,79 @@
+
+<!-- Wael Ouddane U21104525 -->
+
+<!DOCTYPE html>
+<html lang = "en">
+	<head>
+		<meta charset="UTF-8">
+		<title>Q4 Answer</title>
+	</head>
+	
+	<body>
+		
+		<h1>Favorite Concert Location in Dubai</h1>
+		
+		<form action="http://www.deitel.com" method="post">
+        <table>
+            <tr>
+                <td><label for="email">Email:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <tr>
+                <td><label for="phone">Phone Number:</label></td>
+                <td><input type="tel" id="phone" name="phone" placeholder="+971-XXX-XXXXXXX" pattern="\+971-[0-9]{3}-[0-9]{7}" required></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <tr>
+                <td><label for="location">Favorite Concert Location:</label></td>
+                <td>
+                    <select id="location" name="location">
+                        <option value="burj-al-arab" selected>Burj Al Arab</option>
+                        <option value="atlantis">Atlantis The Palm</option>
+                        <option value="jumeirah-beach">Jumeirah Beach Hotel</option>
+                        <option value="palace-downtown">Palace Downtown</option>
+                        <option value="rose-rayhaan">Rose Rayhaan by Rotana</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="date">Date:</label></td>
+                <td><input type="date" id="date" name="date" required></td>
+            </tr>
+            <tr>
+                <td>Preferred Concert Type:</td>
+                <td>
+                    <input type="radio" id="indoor" name="concert-type" value="indoor" required>
+                    <label for="indoor">Indoor</label>
+                    <input type="radio" id="outdoor" name="concert-type" value="outdoor">
+                    <label for="outdoor">Outdoor</label>
+                </td>
+            </tr>
+            <tr>
+                <td>Additional Preferences:</td>
+                <td>
+                    <input type="checkbox" id="vip" name="preferences" value="vip">
+                    <label for="vip">VIP Access</label>
+                    <input type="checkbox" id="parking" name="preferences" value="parking">
+                    <label for="parking">Parking</label>
+                    <input type="checkbox" id="seating" name="preferences" value="seating">
+                    <label for="seating">Seating</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="comments">Extra Comments:</label></td>
+                <td><textarea id="comments" name="comments" rows="4" cols="50"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="Reset">
+                </td>
+            </tr>
+        </table>
+    </form>
+
+	</body>
+</html>
